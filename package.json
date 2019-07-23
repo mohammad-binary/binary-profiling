@@ -1,0 +1,16 @@
+{
+  "name": "binary-profiling",
+  "version": "0.0.1",
+  "description": "Binary Profiling",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Binary.com",
+  "license": "MIT",
+  "devDependencies": {
+    "cli-color": "^1.4.0",
+    "commander": "^2.20.0",
+    "ws": "^7.1.1"
+  }
+}
