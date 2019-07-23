@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Timing Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+    <div style="text-align: center;">
+        <label for="txt_connection_count">Number of connections to open:</label> <input type="number" id="txt_connection_count" value="3" />
+        <br />
+        <label for="txt_interval">Time interval between requests (seconds):</label> <input type="number" id="txt_interval" value="10" />
+        <br />
+        <br />
+        <button id="btn_start">Start</button> <button id="btn_stop" disabled>Stop</button>
+        <hr />
+        <h3>Result:</h3>
+        <div id="result_container"></div>
+    </div>
+</body>
+</html>

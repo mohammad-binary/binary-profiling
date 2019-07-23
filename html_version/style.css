@@ -1,0 +1,31 @@
+html, body {
+    margin: 7px;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+label {
+    font-size: 14px;
+}
+
+button {
+    padding: 3px 20px;
+}
+
+#txt_connection_count, #txt_interval {
+    width: 30px;
+}
+
+#result_container h5 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#result_container .result {
+    padding: 10px;
+    border: 1px solid #aaa;
+    overflow: auto;
+    text-align: left;
+    font-family: monospace;
+    white-space: pre;
+}
