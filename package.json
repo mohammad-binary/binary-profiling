@@ -11,6 +11,6 @@
   "devDependencies": {
     "cli-color": "^1.4.0",
     "commander": "^2.20.0",
-    "ws": "^7.1.1"
+    "ws": "^7.4.6"
   }
 }
